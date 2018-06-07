@@ -13,6 +13,9 @@ class Triangle
       :equilateral
     elsif side_two == side_three
       :isosceles
+    elsif side_one == side_three
+      :isosceles
+
 
     end
 
