@@ -7,11 +7,7 @@ class Triangle
     @side_two = side_two
     @side_three = side_three
   end
-  # def initialize(attributes)
-  #     attributes.each {|key, value| self.send(("#{key}="), value)}
-  # end
-
-
+  
   def kind
     if (side_one == side_two) && (side_two == side_three)
       :equilateral
